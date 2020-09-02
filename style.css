@@ -1,0 +1,250 @@
+/* Common Styles */
+
+html {
+    scroll-padding: 50px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: rgb(47, 54, 54);
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Nav Bar */
+
+nav {
+    overflow: hidden;
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    float: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: mintcream;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+    display: inline-block;
+    padding: 8px;
+    border-bottom: solid transparent;
+}
+
+nav a:hover,
+nav a:active {
+    border-bottom: solid rgb(116, 165, 255);
+}
+
+/* Landing Page */
+
+header {
+    height: 100vh;
+    background-image: url("images/landingPage.jpg");
+    background-size: cover;
+    padding-top: 40vh;
+    box-sizing: border-box;
+}
+
+#welcomeText {
+    text-align: center;
+    margin: 0 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: mintcream;
+}
+
+header p {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+header h1 {
+    font-size: 72px;
+    margin: 0;
+    border: none;
+}
+
+/* Body Styles */
+
+.content {
+    padding: 0 10% 50px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.content div {
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 42px;
+    border-bottom: solid rgb(116, 165, 255);
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+p {
+    overflow: hidden;
+}
+
+ul {
+    list-style: square;
+}
+
+dt {
+    float: left;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+dt::after {
+    content: ":";
+}
+
+.content a {
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Extra Body Formatting */
+
+#aboutContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.date {
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tools {
+    display: block;
+}
+
+/* Image formatting */
+
+.content img {
+    float: left;
+    margin-right: 50px;
+    border-radius: 5%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    height: 200px;
+    width: 300px;
+}
+
+#profilePic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+#syllabus {
+    background-color: lavender;
+}
+
+#calPoly {
+    background-color: honeydew;
+}
+
+#dual {
+    background-color: lightblue;
+}
+
+#sanMarcos {
+    background-color: lightsteelblue;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(30, 30, 30);
+    padding: 10px 0 75px;
+    color: mintcream;
+    text-align: center;
+}
+
+footer div {
+    margin: auto;
+    width: 50%
+}
+
+footer h2 {
+    font-weight: normal;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer svg {
+    filter: invert(1);
+    margin: 0 5px;
+}
+
+footer svg:hover {
+    filter: invert(0.6);
+}
+
+#resume:hover {
+    border-color: #999999;
+    color: #999999;
+}
+
+#email {
+    margin-left: 10px;
+}
+
+#resume {
+    border: 3px solid white;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 10%;
+    margin-top: 15px;
+}
+
+/* Clearfix */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Media Queries */
+
+@media screen and (min-width: 1480px) {
+    #aboutContainer {
+        margin: 0 15%;
+    }
+
+    .tools {
+        float: right;
+        margin-top: 2;
+    }
+
+    .content {
+        padding: 0 20% 50px;
+    }
+}

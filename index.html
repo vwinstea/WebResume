@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vance Winstead</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul> 
+  </nav>
+
+  <header>
+    <div id="welcomeText">
+      <p>Hi, my name is </p>
+      <h1>Vance Winstead</h1>
+    </div>
+  </header>
+
+  <div class="content clearfix">
+    <h1 id="about-me">About Me</h1>
+    <div class="clearfix" id="aboutContainer">
+      <img src="images/VanceSmall.png" alt="Vance Winstead" id="profilePic">
+      <p>I am a software engineer from San Diego, California. I enjoy programming, UI/UX, and mathmatics. 
+        I am currently persuing a BS in Software Engineering from Cal Poly SLO and plan to graduate in Spring 2022. 
+      </p>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 id="projects">Projects</h1>
+    <div class="clearfix">
+      <img src="images/cShell.png" alt="C Shell">
+      <h3>C Shell</h3>
+      <span class="date">Spring 2020</span>
+      <span class="tools">C, Vim</span>
+      <p>As my final project for my Systems Programming class, I developed a C program that mimics the Unix Shell. 
+        In addition to performing basic tasks, the shell was also able to perform piping and input & output 
+        redirection using subproccesses and IPC.
+      </p>
+    </div>
+    <div class="clearfix">
+      <img src="images/SyllabusToCalendar.png" alt="Syllabus converted to Calendar" id="syllabus">
+      <h3>Syllabus to Calendar</h3>
+      <span class="date">Winter 2020</span>
+      <span class="tools">Python, Regex, Json, Github</span>
+      <p>
+        This project was developed at a hackathon with a team of three other freshman from Cal Poly. We built a website
+        that was able to extract text from a pdf, such as a syllabus, and create events that the user could add to their 
+        calendar. I worked primarily on the backend and wrote an algorithm that parsed the text from the pdf and created 
+        the calendar events. After the hackathon, I rewrote the algorithm using regex to improve readability and accuracy.
+      </p>
+    </div>
+    <div class="clearfix">
+      <img src="images/RollBall.png" alt="Rolling Ball Game">
+      <h3>Rolling Ball Game</h3>
+      <span class="date">Spring 2019</span>
+      <span class="tools">Unity, C#</span>
+      <p>This project was developed at a hackathon with a high school friend. We created a physics based game where 
+        you rolled a ball down a hill while avoiding obsticles and gaining speed over time. The game won best in show
+        at the hackathon due to its fun gameplay, clean presentation, and custom music.
+      </p>
+    </div>
+    <div class="clearfix">
+      <img src="images/Match3.png" alt="Match 3 Game">
+      <h3>Match 3</h3>
+      <span class="date">Fall 2018</span>
+      <span class="tools">Java, Swing, AWT</span>
+      <p>
+        This was my final project for my second computer science course. It is a match 3 game that features a GUI
+        implemented using Swing and AWT. The project incoorperated object oriented programming, custom exceptions,
+        and extensive documentation.
+        <br><a href="https://github.com/vwinstea/Match3">Source Code</a> | <a href="downloads/Match3.jar">Download</a>
+      </p>
+    </div>
+    <div class="clearfix">
+      <img src="images/Mind.png" alt="Pahntasmic Mind">
+      <h3>Phantasmic Mind</h3>
+      <span class="date">Fall 2017</span>
+      <span class="tools">Unity, C#, Github</span>
+      <p>
+        I worked on this top down RPG as part of the video game development club at my high school. I was one of the 
+        lead developers and helped to create the main prototype that we used to demo the game at the end of the semester.
+      </p>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 id="education">Education</h1>
+    <div class="clearfix">
+      <img src='images/calPoly.png' alt="Cal Poly Logo" id="calPoly">
+      <h3>California Polytechnic State University, San Luis Obispo</h3>
+      <p class="date">Fall 2019 - Present</p>
+      <dl>
+        <dt>Major</dt>
+        <dd>BS Software Engineering</dd>
+        <dt>GPA</dt>
+        <dd>4.0</dd>
+        <dt>Coursework</dt>
+        <dd>Systems Programming (C), Database Systems (MySQL), Data Structures (Python), & Computer Organization (LC-3 Assembly)</dd>
+      </dl>
+    </div>
+    <div class="clearfix">
+      <img src="images/DualEnroll.png" alt="Palomar College & MiraCosta College Logos" id="dual">
+      <h3>Palomar College & MiraCosta Colege</h3>
+      <p class="date">Spring 2018 - Spring 2019</p>
+      <p>During high school, I took dual enrollement courses at local community colleges to learn more advanced topics.</p>
+      <dl>
+        <dt>Coursework</dt>
+        <dd>Intro to Comp Sci II (Java), Linear Algebra, Calculus III</dd>
+      </dl>
+    </div>
+    <div class="clearfix">
+        <img src="images/sanMarcos.png" alt="San Marcos High Logo" id="sanMarcos">
+        <h3>San Marcos High School</h3>
+        <p class="date">Fall 2015 - Spring 2019</p>
+        <dl>
+          <dt>GPA</dt>
+          <dd>4.3</dd>
+          <dt>Coursework</dt>
+          <dd>AP Computer Science A (Java), AP Calculus BC, AP Statistics</dd>
+        </dl>
+    </div>
+    <div class="clearfix">
+      <img src="images/treehouse.png" alt="Treehouse Logo">
+      <h3>Treehouse</h3>
+      <p class="date">Winter 2014 - Present</p>
+      <p>During my Winter and Summer breaks I've taken many online programming courses, primarily through the website 
+        Treehouse. I've studied in various languages including Swift, Python, Html, and CSS, as well as 
+        various skills including front end web development, game development, and regex. You can view my 
+        profile <a href="https://teamtreehouse.com/vancewinstead">here</a> to learn more.
+      </p>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:vance.winstead@gmail.com">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" id="email">
+        <path d="M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 
+        12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 
+        1.288l-6-4.629v6.771h12v-6.771l-6 4.629z"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/vance-winstead-75b64a194/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 
+        12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 
+        1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 
+        0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
+      </svg>
+    </a>
+    <br>
+    <a href="downloads/Resume Summer 2020.pdf" id="resume" target="_blank">Download Resume</a>
+  </footer>
+
+</body>
+</html>
